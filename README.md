@@ -1,23 +1,23 @@
-# lxdatacleaner 数据清洗库
+# lxkjdatacleaner 数据清洗库
 公司内部自用的python数据清洗库
 ##主要功能
 - 数据字段清洗，各字段类型校验与强制转换
 - 数据删除与填充
 - 数据字段中，域的定义
 - 流式数据校验，清洗
-##数据输入输出
+## 数据输入输出
 - 支持输入输出文本文件，csv格式输入输出
 - 支持输入输出数据库，mysql，MariaDB
 - 支持输入消息队列，KAFKA
 - 仅支持输出：json
 - 根据如上输入输出规则可自定义输入输出
-##安装
+## 安装
 ```
-pip install lxdatacleaner
+pip install lxkjdatacleaner
 ```
-##使用
+## 使用
 ```
-import lxdatacleaner as lxdc
+import lxkjdatacleaner as lxdc
 #输入,首先进行实例化，然后调用函数
 input = lxdc.input()
 domain = lxdc.domain()
