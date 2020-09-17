@@ -1,0 +1,3 @@
+[console_scripts]
+kafka-tools = pykafka.cli.kafka_tools:main
+
